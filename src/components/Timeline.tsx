@@ -4,27 +4,27 @@ import { Calendar, Coffee, Plane, Heart, Home, Star } from 'lucide-react';
 const Timeline: React.FC = () => {
   const events = [
     {
-      date: 'October 15, 2023',
-      title: 'Our First Date',
-      description: 'That cozy coffee shop where we talked for hours',
+      date: 'December 24, 2024',
+      title: 'When We First Saw Each Other',
+      description: 'Just a video call and we talked for hours',
       icon: Coffee,
     },
     {
-      date: 'November 1, 2023',
+      date: 'December 25, 2024',
       title: 'First "I Love You"',
-      description: 'Under the stars at the beach',
+      description: 'After Santa Gave Me a Present',
       icon: Heart,
     },
     {
-      date: 'December 20, 2023',
-      title: 'First Trip Together',
-      description: 'Our magical weekend getaway',
+      date: 'January 15, 2025',
+      title: 'Trusting You Blindly',
+      description: 'You had my Complete Trust by this Time',
       icon: Plane,
     },
     {
-      date: 'January 15, 2024',
-      title: 'Moving In Together',
-      description: 'Starting our life under one roof',
+      date: 'February 2, 2025',
+      title: 'We met and you left',
+      description: 'Anxious me met you for the first time',
       icon: Home,
     },
   ];

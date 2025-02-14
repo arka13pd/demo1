@@ -4,14 +4,14 @@ import { PenLine } from 'lucide-react';
 const LoveLetters: React.FC = () => {
   const letters = [
     {
-      date: 'February 14, 2024',
+      date: 'December 25, 2024',
       title: 'My Valentine',
       content: 'Every day with you feels like Valentine\'s Day. Your smile lights up my world in ways I never thought possible. Thank you for being the most amazing partner anyone could ask for.',
     },
     {
-      date: 'January 1, 2024',
-      title: 'New Year, Same Love',
-      content: 'As we enter another year together, I\'m reminded of how lucky I am to have you by my side. Here\'s to creating more beautiful memories together.',
+      date: 'February 2, 2025',
+      title: 'New Year, New Beginning',
+      content: 'As we enter a new together, I\'m reminded of how lucky I am to have you by my side. Here\'s to creating more beautiful memories together.',
     },
   ];
 

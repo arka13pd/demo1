@@ -14,15 +14,19 @@ const OurStory: React.FC = () => {
         <div className="prose prose-lg mx-auto bg-white p-8 rounded-2xl shadow-lg">
           <p className="text-gray-700 leading-relaxed mb-6">
             It all started with a simple notification on a dating app. Little did I know that this
-            ordinary Tuesday evening would lead me to the most extraordinary person I've ever met.
+            ordinary Sunday evening would lead me to the most extraordinary person I've ever met.
             Your profile caught my eye - not just because of your beautiful smile, but because of
             the genuine warmth that radiated from your photos.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
             Our first conversation flowed effortlessly, as if we'd known each other for years.
-            We discovered our shared love for indie movies, Thai food, and spontaneous adventures.
-            Hours turned into days, and soon we couldn't wait to meet in person.
+            There was an instant connection, a natural rhythm to our words that felt both comforting and familiar.
+            Yet, as time passed, I discovered how distinct we truly are—our perspectives, experiences, 
+            and ways of seeing the world often diverging in surprising ways. 
+            But it was within those differences that I found something even more beautiful:
+            a bond enriched by contrast, deepened by understanding, 
+            and strengthened by the space we gave each other to simply be ourselves.
           </p>
           
           <p className="text-gray-700 leading-relaxed">

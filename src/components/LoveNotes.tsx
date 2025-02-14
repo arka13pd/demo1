@@ -4,12 +4,12 @@ import { MessageCircleHeart, Send } from 'lucide-react';
 const LoveNotes: React.FC = () => {
   const [notes, setNotes] = useState([
     {
-      author: 'Sarah',
+      author: 'Ishita',
       content: 'You two are the definition of relationship goals! So happy for you both! ❤️',
       date: '2024-02-14',
     },
     {
-      author: 'Mike',
+      author: 'Titash',
       content: 'Your love story is inspiring! Wishing you both endless happiness!',
       date: '2024-02-13',
     },

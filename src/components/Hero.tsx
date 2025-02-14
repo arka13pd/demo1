@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         <h1 className="text-5xl md:text-6xl font-dancing mb-6">Our Love Story</h1>
         <p className="text-xl md:text-2xl font-light mb-8 leading-relaxed">
           To my dearest, who makes every day feel like Valentine's Day.
-          This is our story, our journey, and our endless love.
+          This is our story, our journey, and our accidental love.
         </p>
         <button className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-full font-medium transition-colors">
           Begin Our Journey

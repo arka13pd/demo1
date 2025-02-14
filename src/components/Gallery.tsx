@@ -4,28 +4,28 @@ import { Image as ImageIcon } from 'lucide-react';
 const Gallery: React.FC = () => {
   const photos = [
     {
-      url: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80',
-      caption: 'Our first vacation together',
+      url: '/demo1/images/where_it_all_started.png',
+      caption: 'Where it all Started',
     },
     {
-      url: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&q=80',
-      caption: 'Sunset walks on the beach',
+      url: '/demo1/images/first_time_i_saw_you.jpg',
+      caption: 'First time we saw each other',
     },
     {
-      url: 'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=80',
-      caption: 'Coffee shop dates',
+      url: '/demo1/images/confess.png',
+      caption: 'When we confessed',
     },
     {
-      url: 'https://images.unsplash.com/photo-1516589091380-5d8e21be1859?auto=format&fit=crop&q=80',
-      caption: 'Dancing in the rain',
+      url: '/demo1/images/first_time_we_met.jpg',
+      caption: 'When we met',
     },
     {
-      url: 'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80',
-      caption: 'Our favorite hiking trail',
+      url: '/demo1/images/rose.jpg',
+      caption: 'My panda with roses',
     },
     {
-      url: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80',
-      caption: 'Movie night at home',
+      url: '/demo1/images/blush.jpg',
+      caption: 'You blushing in Moscow on my proposal',
     },
   ];
 
@@ -45,6 +45,7 @@ const Gallery: React.FC = () => {
                 src={photo.url}
                 alt={photo.caption}
                 className="w-full h-64 object-cover transform transition-transform duration-300 group-hover:scale-110"
+                style={{ objectFit: 'cover' }} // Ensures perfect fit
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-4">
